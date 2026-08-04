@@ -17,8 +17,9 @@
 | KPIs | 40+ Business KPIs |
 | SQL Queries | 25+ Business Analysis & Validation Queries |
 | DAX Measures | 30+ Custom Measures |
-| Data Tables | 8 Integrated Tables |
-| Records Analysed | ~50,000+ Supply Chain Records |
+| Excel Workbook | 1 End-to-End Analysis Workbook |
+| Data Tables | 8 interconnected operational datasets |
+| Records Processed | ~50,000+ Supply Chain Records |
 
 ---
 
@@ -97,6 +98,8 @@ The objective of this project is to consolidate operational data into a centrali
 | DAX | KPI calculations and business measure development |
 | Git & GitHub | Version control, documentation, and project publishing |
 
+The project follows an end-to-end analytics workflow, beginning with Excel for data preparation, SQL for business analysis and validation, and Power BI with DAX for interactive reporting.
+
 ---
 
 # 📂 Dataset Overview
@@ -126,32 +129,52 @@ The project follows a structured analytics workflow from raw data to business in
 Raw Supply Chain Data
           │
           ▼
- Data Cleaning (Excel)
+Data Preparation & Cleaning (Excel)
           │
           ▼
- Business Analysis (SQL)
+Exploratory Analysis (Excel)
           │
           ▼
- KPI Validation (SQL)
+Business Analysis (SQL)
           │
           ▼
- Data Modeling (Power BI)
+KPI Validation (SQL)
           │
           ▼
- DAX Measure Development
+Data Modeling (Power BI)
           │
           ▼
- Interactive Dashboards
+DAX Measure Development
           │
           ▼
- Business Insights & Recommendations
+Interactive Dashboards
+          │
+          ▼
+Business Insights & Recommendations
+
 ```
+
+# 🔄 Project Lifecycle
+
+This project was completed in four major phases:
+
+### Phase 1
+Data Preparation & Cleaning (Excel)
+
+### Phase 2
+Business Analysis & KPI Validation (SQL)
+
+### Phase 3
+Data Modeling, DAX Development & Dashboard Design (Power BI)
+
+### Phase 4
+Project Documentation, GitHub Publishing & Portfolio Presentation
 
 ---
 
 # 📊 Dashboard Overview
 
-The Power BI solution consists of **7 interactive dashboards**, each designed to monitor a specific area of the supply chain. Together, they provide end-to-end operational visibility and support data-driven decision-making.
+The Power BI solution consists of **7 interactive dashboards**, each designed to provide focused visibility into a critical supply chain function.
 
 | Dashboard | Purpose |
 |-----------|---------|
@@ -335,7 +358,7 @@ Provides warehouse-level visibility into inventory distribution, stock levels, a
 
 # 🔍 SQL Business Analysis
 
-Before building the Power BI dashboards, SQL was used to perform exploratory business analysis and answer critical supply chain questions. These investigations helped identify operational trends, validate business assumptions, and uncover insights used throughout the dashboard development process.
+Before building the Power BI dashboards, SQL was used to perform exploratory business analysis, answer key operational questions, and validate business assumptions before dashboard development.
 
 ### Key Business Investigations
 
@@ -355,7 +378,7 @@ Before building the Power BI dashboards, SQL was used to perform exploratory bus
 
 # ✅ Power BI KPI Validation
 
-Every KPI and visual presented in the Power BI dashboards was independently validated using SQL to ensure consistency between the underlying database calculations and the dashboard outputs.
+Every KPI and dashboard metric was independently validated using SQL queries to ensure consistency between the source data and the Power BI calculations.
 
 ### Validation Highlights
 
@@ -418,6 +441,8 @@ The project generated several operational insights across different supply chain
 
 # 📈 Business Impact
 
+By consolidating operational data into a centralized analytics solution, the project demonstrates how business intelligence can improve visibility, operational efficiency, and decision-making across the supply chain.
+
 This project demonstrates how analytics can support supply chain decision-making by:
 
 - Improving visibility into inventory health and stock availability.
@@ -478,6 +503,9 @@ Supply-Chain-Control-Tower
 │   ├── Forecast.csv
 │   └── Warehouse.csv
 │
+├── Excel
+│   └── SupplyChain_ControlTower.xlsx
+│
 ├── Documentation
 │   ├── Project_Charter.pdf
 │   ├── SQL_Analysis.pdf
@@ -488,26 +516,31 @@ Supply-Chain-Control-Tower
 │   └── 02_PowerBI_SQL_Validation.sql
 │
 ├── Images
-│   ├── Executive Dashboard
-│   ├── Inventory Dashboard
-│   ├── Transportation Dashboard
-│   ├── Supplier Dashboard
-│   ├── Forecast Dashboard
-│   ├── Order Fulfillment Dashboard
-│   └── Warehouse Dashboard
+│   ├── Executive_Dashboard.png
+│   ├── Inventory_Dashboard.png
+│   ├── Transportation_Dashboard.png
+│   ├── Supplier_Dashboard.png
+│   ├── Forecast_Dashboard.png
+│   ├── Order_Fulfillment_Dashboard.png
+│   └── Warehouse_Dashboard.png
 │
 └── README.md
-```
 
 ---
 
 # 🚀 How to Use
 
 1. Clone or download the repository.
-2. Open the Power BI (.pbix) file using Microsoft Power BI Desktop.
-3. Explore the interactive dashboards.
-4. Review the SQL Analysis and SQL Validation documents.
-5. Refer to the SQL scripts for executable business analysis and validation queries.
+
+2. Review the Excel workbook for data preparation, cleaning, and exploratory analysis.
+
+3. Explore the SQL scripts used for business analysis and KPI validation.
+
+4. Review the project documentation for methodology and validation details.
+
+5. Open the Power BI report in Power BI Desktop.
+
+6. Explore the seven interactive dashboards and compare the SQL validation queries with the reported KPIs.
 
 ---
 
