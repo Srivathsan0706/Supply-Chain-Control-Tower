@@ -104,7 +104,7 @@ The project follows an end-to-end analytics workflow, beginning with Excel for d
 
 # 📂 Dataset Overview
 
-The project uses a simulated supply chain dataset consisting of **8 interconnected business tables** representing core operational functions. The datasets were cleaned and transformed in Microsoft Excel, analyzed using SQL, and modeled in Power BI to create an end-to-end analytical solution.
+The project uses a simulated supply chain dataset consisting of **8 interconnected operational datasets** representing core supply chain functions.
 
 | Dataset | Description |
 |----------|-------------|
@@ -117,7 +117,7 @@ The project uses a simulated supply chain dataset consisting of **8 interconnect
 | Supplier Product Map | Mapping between suppliers and products supplied. |
 | Warehouse | Warehouse master containing warehouse location and regional information. |
 
-**Total Records Analysed:** ~50,000+
+**Total Records Processed:** ~50,000+
 
 ---
 
@@ -372,7 +372,7 @@ Before building the Power BI dashboards, SQL was used to perform exploratory bus
 📄 Detailed SQL analysis is available in:
 
 - Documentation/SQL_Analysis.pdf
-- SQL Scripts/01_SQL_Analysis.sql
+- SQL/01_SQL_Analysis.sql
 
 ---
 
@@ -393,7 +393,7 @@ Every KPI and dashboard metric was independently validated using SQL queries to 
 📄 Validation queries are available in:
 
 - Documentation/PowerBI_SQL_Validation.pdf
-- SQL Scripts/02_PowerBI_SQL_Validation.sql
+- SQL/02_PowerBI_SQL_Validation.sql
 
 ---
 
@@ -511,7 +511,7 @@ Supply-Chain-Control-Tower
 │   ├── SQL_Analysis.pdf
 │   └── PowerBI_SQL_Validation.pdf
 │
-├── SQL Scripts
+├── SQL
 │   ├── 01_SQL_Analysis.sql
 │   └── 02_PowerBI_SQL_Validation.sql
 │
@@ -525,6 +525,7 @@ Supply-Chain-Control-Tower
 │   └── Warehouse_Dashboard.png
 │
 └── README.md
+```
 
 ---
 
@@ -582,7 +583,9 @@ Potential future enhancements include:
 
 MBA in Logistics & Supply Chain Management
 
-Supply Chain Analytics | Logistics | Power BI | SQL | Excel
+Supply Chain & Logistics Analyst
+
+Power BI • SQL • Excel • DAX • Supply Chain Analytics
 
 This project showcases my approach to solving supply chain business problems through analytics by combining SQL, Power BI, DAX, and business reasoning to deliver actionable operational insights.
 
