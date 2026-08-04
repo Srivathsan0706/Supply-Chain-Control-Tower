@@ -1,0 +1,9 @@
+Warehouse_ID,Warehouse_Name,Capacity,Utilization_Pct
+WH1,Warehouse_1,16613,85
+WH2,Warehouse_2,28370,94
+WH3,Warehouse_3,24901,91
+WH4,Warehouse_4,15589,90
+WH5,Warehouse_5,18918,78
+WH6,Warehouse_6,25119,85
+WH7,Warehouse_7,18046,60
+WH8,Warehouse_8,29818,56
